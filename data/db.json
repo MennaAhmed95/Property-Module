@@ -12,7 +12,7 @@
         "/assets/imgs/z.webp"
       ],
       "locality": "Lincoln",
-      "price": "$140,000",
+      "price": "14",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqft",
@@ -31,7 +31,7 @@
         "/assets/imgs/d.webp"
       ],
       "locality": "Lincoln",
-      "price": "$120,000",
+      "price": "12",
       "bedrooms": 2,
       "bath": 2,
       "carpetArea": "670 sqft",
@@ -50,7 +50,7 @@
         "/assets/imgs/4.webp"
       ],
       "locality": "Lincoln",
-      "price": "$100,000",
+      "price": "10",
       "bedrooms": 4,
       "bath": 3,
       "carpetArea": "670 sqft",
@@ -69,8 +69,8 @@
         "/assets/imgs/y.webp",
         "/assets/imgs/z.webp"
       ],
-      "locality": "New York",
-      "price": "$155,000",
+      "locality": "Gota",
+      "price": "15",
       "bedrooms": 5,
       "bath": 4,
       "carpetArea": "670 sqft",
@@ -88,13 +88,13 @@
         "/assets/imgs/2.webp",
         "/assets/imgs/4.webp"
       ],
-      "locality": "New York",
-      "price": "$319,000",
+      "locality": "Gota",
+      "price": "31",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqmt",
       "views": 10,
-      "favorite": "false",
+      "favorite": "true",
       "addedDate": "Last 5 week"
     },
     {
@@ -109,7 +109,7 @@
         "/assets/imgs/y.webp"
       ],
       "locality": "Sola",
-      "price": "$300,000",
+      "price": "30",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqyd",
@@ -127,13 +127,13 @@
         "/assets/imgs/1.webp",
         "/assets/imgs/4.webp"
       ],
-      "locality": "New York",
-      "price": "$319,000",
+      "locality": "Gota",
+      "price": "31",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqmt",
       "views": 4,
-      "favorite": "false",
+      "favorite": "true",
       "addedDate": "This week"
     },
     {
@@ -148,7 +148,7 @@
         "/assets/imgs/z.webp"
       ],
       "locality": "Sola",
-      "price": "$115,000",
+      "price": "11",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqyd",
@@ -168,7 +168,7 @@
         "/assets/imgs/z.webp"
       ],
       "locality": "Lincoln",
-      "price": "$140,000",
+      "price": "14",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqft",
@@ -187,12 +187,12 @@
         "/assets/imgs/d.webp"
       ],
       "locality": "Lincoln",
-      "price": "$120,000",
+      "price": "12",
       "bedrooms": 2,
       "bath": 2,
       "carpetArea": "670 sqft",
       "views": 0,
-      "favorite": "false",
+      "favorite": "true",
       "addedDate": "Last 5 week"
     },
     {
@@ -206,7 +206,7 @@
         "/assets/imgs/4.webp"
       ],
       "locality": "Lincoln",
-      "price": "$100,000",
+      "price": "10",
       "bedrooms": 4,
       "bath": 3,
       "carpetArea": "670 sqft",
@@ -225,8 +225,8 @@
         "/assets/imgs/y.webp",
         "/assets/imgs/z.webp"
       ],
-      "locality": "New York",
-      "price": "$155,000",
+      "locality": "Gota",
+      "price": "15",
       "bedrooms": 5,
       "bath": 4,
       "carpetArea": "670 sqft",
@@ -244,13 +244,13 @@
         "/assets/imgs/2.webp",
         "/assets/imgs/4.webp"
       ],
-      "locality": "New York",
-      "price": "$319,000",
+      "locality": "Gota",
+      "price": "31",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqmt",
       "views": 0,
-      "favorite": "false",
+      "favorite": "true",
       "addedDate": "This week"
     },
     {
@@ -265,7 +265,7 @@
         "/assets/imgs/y.webp"
       ],
       "locality": "Sola",
-      "price": "$300,000",
+      "price": "30",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqyd",
@@ -285,7 +285,7 @@
         "/assets/imgs/z.webp"
       ],
       "locality": "Sola",
-      "price": "$115,000",
+      "price": "11",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqyd",
@@ -305,7 +305,7 @@
         "/assets/imgs/z.webp"
       ],
       "locality": "Lincoln",
-      "price": "$140,000",
+      "price": "14",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqft",
@@ -324,7 +324,7 @@
         "/assets/imgs/d.webp"
       ],
       "locality": "Lincoln",
-      "price": "$120,000",
+      "price": "12",
       "bedrooms": 2,
       "bath": 2,
       "carpetArea": "670 sqft",
@@ -343,7 +343,7 @@
         "/assets/imgs/4.webp"
       ],
       "locality": "Lincoln",
-      "price": "$100,000",
+      "price": "10",
       "bedrooms": 4,
       "bath": 3,
       "carpetArea": "670 sqft",
@@ -362,8 +362,8 @@
         "/assets/imgs/y.webp",
         "/assets/imgs/z.webp"
       ],
-      "locality": "New York",
-      "price": "$155,000",
+      "locality": "Gota",
+      "price": "15",
       "bedrooms": 5,
       "bath": 4,
       "carpetArea": "670 sqft",
@@ -381,8 +381,8 @@
         "/assets/imgs/2.webp",
         "/assets/imgs/4.webp"
       ],
-      "locality": "New York",
-      "price": "$319,000",
+      "locality": "Gota",
+      "price": "31",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqmt",
@@ -402,7 +402,7 @@
         "/assets/imgs/y.webp"
       ],
       "locality": "Sola",
-      "price": "$300,000",
+      "price": "30",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqyd",
@@ -422,7 +422,7 @@
         "/assets/imgs/z.webp"
       ],
       "locality": "Sola",
-      "price": "$115,000",
+      "price": "11",
       "bedrooms": 3,
       "bath": 2,
       "carpetArea": "670 sqyd",
