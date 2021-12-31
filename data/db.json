@@ -1,0 +1,434 @@
+{
+  "Properties": [
+    {
+      "id": 1,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/y.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$140,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqft",
+      "views": 3,
+      "favorite": "true",
+      "addedDate": "Last 5 week"
+    },
+    {
+      "id": 2,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/a.webp",
+        "/assets/imgs/b.webp",
+        "/assets/imgs/c.webp",
+        "/assets/imgs/d.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$120,000",
+      "bedrooms": 2,
+      "bath": 2,
+      "carpetArea": "670 sqft",
+      "views": 1,
+      "favorite": "false",
+      "addedDate": "Last 5 week"
+    },
+    {
+      "id": 3,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/1.webp",
+        "/assets/imgs/2.webp",
+        "/assets/imgs/3.webp",
+        "/assets/imgs/4.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$100,000",
+      "bedrooms": 4,
+      "bath": 3,
+      "carpetArea": "670 sqft",
+      "views": 5,
+      "favorite": "false",
+      "addedDate": "Last 15 week"
+    },
+    {
+      "id": 4,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/w.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/y.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "New York",
+      "price": "$155,000",
+      "bedrooms": 5,
+      "bath": 4,
+      "carpetArea": "670 sqft",
+      "views": 7,
+      "favorite": "false",
+      "addedDate": "Last 15 week"
+    },
+    {
+      "id": 5,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/3.webp",
+        "/assets/imgs/1.webp",
+        "/assets/imgs/2.webp",
+        "/assets/imgs/4.webp"
+      ],
+      "locality": "New York",
+      "price": "$319,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqmt",
+      "views": 10,
+      "favorite": "false",
+      "addedDate": "Last 5 week"
+    },
+    {
+      "id": 6,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/z.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/y.webp"
+      ],
+      "locality": "Sola",
+      "price": "$300,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqyd",
+      "views": 12,
+      "favorite": "false",
+      "addedDate": "Last 5 week"
+    },
+    {
+      "id": 7,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/2.webp",
+        "/assets/imgs/3.webp",
+        "/assets/imgs/1.webp",
+        "/assets/imgs/4.webp"
+      ],
+      "locality": "New York",
+      "price": "$319,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqmt",
+      "views": 4,
+      "favorite": "false",
+      "addedDate": "This week"
+    },
+    {
+      "id": 8,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/y.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "Sola",
+      "price": "$115,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqyd",
+      "views": 0,
+      "favorite": "false",
+      "addedDate": "This week"
+    },
+    {
+      "id": 9,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/y.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$140,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqft",
+      "views": 2,
+      "favorite": "false",
+      "addedDate": "Last 5 week"
+    },
+    {
+      "id": 10,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/a.webp",
+        "/assets/imgs/b.webp",
+        "/assets/imgs/c.webp",
+        "/assets/imgs/d.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$120,000",
+      "bedrooms": 2,
+      "bath": 2,
+      "carpetArea": "670 sqft",
+      "views": 0,
+      "favorite": "false",
+      "addedDate": "Last 5 week"
+    },
+    {
+      "id": 11,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/1.webp",
+        "/assets/imgs/2.webp",
+        "/assets/imgs/3.webp",
+        "/assets/imgs/4.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$100,000",
+      "bedrooms": 4,
+      "bath": 3,
+      "carpetArea": "670 sqft",
+      "views": 0,
+      "favorite": "false",
+      "addedDate": "Last 5 week"
+    },
+    {
+      "id": 12,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/w.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/y.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "New York",
+      "price": "$155,000",
+      "bedrooms": 5,
+      "bath": 4,
+      "carpetArea": "670 sqft",
+      "views": 0,
+      "favorite": "false",
+      "addedDate": "Last 5 week"
+    },
+    {
+      "id": 13,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/3.webp",
+        "/assets/imgs/1.webp",
+        "/assets/imgs/2.webp",
+        "/assets/imgs/4.webp"
+      ],
+      "locality": "New York",
+      "price": "$319,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqmt",
+      "views": 0,
+      "favorite": "false",
+      "addedDate": "This week"
+    },
+    {
+      "id": 22,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/z.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/y.webp"
+      ],
+      "locality": "Sola",
+      "price": "$300,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqyd",
+      "views": 1,
+      "favorite": "false",
+      "addedDate": "This week"
+    },
+    {
+      "id": 14,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/y.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "Sola",
+      "price": "$115,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqyd",
+      "views": 2,
+      "favorite": "false",
+      "addedDate": "This week"
+    },
+    {
+      "id": 15,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/y.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$140,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqft",
+      "views": 3,
+      "favorite": "true",
+      "addedDate": "This week"
+    },
+    {
+      "id": 16,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/a.webp",
+        "/assets/imgs/b.webp",
+        "/assets/imgs/c.webp",
+        "/assets/imgs/d.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$120,000",
+      "bedrooms": 2,
+      "bath": 2,
+      "carpetArea": "670 sqft",
+      "views": 4,
+      "favorite": "false",
+      "addedDate": "This week"
+    },
+    {
+      "id": 17,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/1.webp",
+        "/assets/imgs/2.webp",
+        "/assets/imgs/3.webp",
+        "/assets/imgs/4.webp"
+      ],
+      "locality": "Lincoln",
+      "price": "$100,000",
+      "bedrooms": 4,
+      "bath": 3,
+      "carpetArea": "670 sqft",
+      "views": 5,
+      "favorite": "true",
+      "addedDate": "This week"
+    },
+    {
+      "id": 18,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/w.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/y.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "New York",
+      "price": "$155,000",
+      "bedrooms": 5,
+      "bath": 4,
+      "carpetArea": "670 sqft",
+      "views": 55,
+      "favorite": "false",
+      "addedDate": "Last 15 week"
+    },
+    {
+      "id": 19,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/3.webp",
+        "/assets/imgs/1.webp",
+        "/assets/imgs/2.webp",
+        "/assets/imgs/4.webp"
+      ],
+      "locality": "New York",
+      "price": "$319,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqmt",
+      "views": 50,
+      "favorite": "true",
+      "addedDate": "Last 15 week"
+    },
+    {
+      "id": 20,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/z.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/y.webp"
+      ],
+      "locality": "Sola",
+      "price": "$300,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqyd",
+      "views": 40,
+      "favorite": "false",
+      "addedDate": "Last 15 week"
+    },
+    {
+      "id": 21,
+      "name": "Family Home",
+      "description": "Let’s find a home that’s perfect for you",
+      "images": [
+        "/assets/imgs/y.webp",
+        "/assets/imgs/x.webp",
+        "/assets/imgs/t.webp",
+        "/assets/imgs/w.webp",
+        "/assets/imgs/z.webp"
+      ],
+      "locality": "Sola",
+      "price": "$115,000",
+      "bedrooms": 3,
+      "bath": 2,
+      "carpetArea": "670 sqyd",
+      "views": 5,
+      "favorite": "true",
+      "addedDate": "Last 5 week"
+    }
+  ]
+}

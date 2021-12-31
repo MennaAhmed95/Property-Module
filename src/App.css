@@ -35,3 +35,18 @@
     transform: rotate(360deg);
   }
 }
+.header {
+  display: flex;
+  background: "white";
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.logo {
+  background: url("../public/assets/imgs/logo.png");
+  background-size: cover;
+  height: 50px;
+  width: 50px;
+  background-repeat: no-repeat;
+  margin: 0.5rem 4rem 0;
+}
