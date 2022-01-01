@@ -35,11 +35,11 @@ const Home = () => {
   useEffect(() => {
     loadProperty();
     window.addEventListener("scroll", handleScroll);
-  }, [loadProperty, handleScroll]);
+  }, []);
 
   return (
     <Layout>
-      <Header className="header">
+      <Header className="header" style={{ width: "100%" }}>
         <div className="logo" />
         <Menu theme="dark" mode="horizontal">
           <Menu.Item key="1">Home</Menu.Item>
