@@ -6,6 +6,11 @@
   width: 100%;
   z-index: 10;
 }
+@media (max-width: 500px) {
+  .header {
+    width: fit-content;
+  }
+}
 .logo {
   background: url("./../public/assets/imgs/logo.png");
   background-size: cover;

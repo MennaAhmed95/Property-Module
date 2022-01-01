@@ -36,7 +36,7 @@ class ProdertyDetailsPage extends React.Component {
   render() {
     const { property, index } = this.state;
     return (
-      <Layout style={{ height: "100vh" }}>
+      <Layout style={{ height: "150vh" }}>
         <Header className="header">
           <div className="logo" />
           <Menu theme="dark" mode="horizontal">
