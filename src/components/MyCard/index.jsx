@@ -1,20 +1,28 @@
 import { HeartOutlined, HeartFilled, HomeOutlined } from "@ant-design/icons";
 import "./card.css";
+import { useNavigate } from "react-router";
 
 const MyCard = ({ property }) => {
-  console.log(property?.favorite);
+  const history = useNavigate();
+
   return (
-    <div class="card">
-      <div class="card__header">
+    <div
+      className="card"
+      onClick={() => {
+        history(`/propertyDetail/${property?.id}`);
+        window.scrollTo(0, 0);
+      }}
+    >
+      <div className="card__header">
         <img
           src={property?.images[0]}
           alt="card__image"
-          class="card__image"
+          className="card__image"
           width="600"
           height="234"
         />
       </div>
-      <div class="card__body">
+      <div className="card__body">
         <p>
           {property?.name}
           {property?.favorite === "true" ? <HeartFilled /> : <HeartOutlined />}

@@ -1,12 +1,9 @@
 import { Select, Menu } from "antd";
 import { locality, Bedrooms, AddedDate, priceRange } from "./../../constants";
-const SliderBody = () => {
+const SliderBody = ({ handleDate, handlePrice, handleBeds, handleChange }) => {
   const { SubMenu } = Menu;
   const { Option } = Select;
 
-  function handleChange(value) {
-    console.log(`selected ${value}`);
-  }
   return (
     <>
       <Select
@@ -24,21 +21,27 @@ const SliderBody = () => {
       <Menu mode="inline">
         <SubMenu title="Price Range">
           {priceRange.map((itm, i) => (
-            <Menu.Item key={i}>{itm}</Menu.Item>
+            <Menu.Item onClick={() => handlePrice(itm)} key={i}>
+              {itm}
+            </Menu.Item>
           ))}
         </SubMenu>
       </Menu>
       <Menu mode="inline">
         <SubMenu title="Bedrooms">
           {Bedrooms.map((itm, i) => (
-            <Menu.Item key={i}>{itm}</Menu.Item>
+            <Menu.Item onClick={() => handleBeds(itm)} key={i}>
+              {itm}
+            </Menu.Item>
           ))}
         </SubMenu>
       </Menu>
       <Menu mode="inline">
         <SubMenu title="Added Date">
           {AddedDate.map((itm, i) => (
-            <Menu.Item key={i}>{itm}</Menu.Item>
+            <Menu.Item onClick={() => handleDate(itm)} key={i}>
+              {itm}
+            </Menu.Item>
           ))}
         </SubMenu>
       </Menu>

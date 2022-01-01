@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./containers/Home";
 import ProdertyDetailsPage from "./containers/ProdertyDetailsPage";
 import { Route } from "react-router";
-import { Routes, Navigate, Outlet } from "react-router-dom";
+import { Routes, Navigate } from "react-router-dom";
 import React from "react";
 
 class App extends React.Component {
@@ -13,18 +13,13 @@ class App extends React.Component {
   render() {
     return (
       <Routes>
-        <Route
-          exact
-          path="/"
-          element={<Home />}
-          // render={(props) => <Home {...props} ref={this.ref} />}
-        />
+        <Route exact path="/" element={<Home />} />
         <Route
           path="/propertyDetail/:id"
           exact
           element={<ProdertyDetailsPage />}
         />
-        {/* <Navigate to="/" /> */}
+        <Route path="/" element={<Navigate to="/" />} />
       </Routes>
     );
   }
