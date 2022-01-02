@@ -12,8 +12,7 @@ const Home = () => {
   const [price, setPrice] = useState(null);
   const [bedrooms, setBedrooms] = useState(null);
   const [locality, setLocality] = useState(null);
-  const [arrLocation, setarrLocation] = useState([]);
-  // const [limit, setLimit] = useState(10);
+
   let limit = 10;
   let from, to, url;
   const handleDate = (itm) => {
@@ -86,23 +85,12 @@ const Home = () => {
   };
 
   const handleScroll = (e) => {
-    // console.log(e.target.documentElement.scrollTop);
-    // console.log(window.innerHeight);
-    // console.log(e.target.documentElement.scrollHeight);
-    // const scrollHeight = e.target.documentElement.scrollHeight;
-    // const currentHeight = Math.ceil(
-    //   e.target.documentElement.scrollTop + window.innerHeight
-    // );
-    // if (currentHeight + 1 >= scrollHeight) {
-    //   // loadProperty(addedDate, price, bedrooms, locality);
-    //   setLimit(limit + 5);
-    // }
     let isAtBottom =
       document.documentElement.scrollHeight -
         document.documentElement.scrollTop <=
       document.documentElement.clientHeight;
     debugger;
-    if (isAtBottom && limit < 30) {
+    if (isAtBottom && limit <= 30) {
       loadProperty(addedDate, price, bedrooms, locality);
     }
   };

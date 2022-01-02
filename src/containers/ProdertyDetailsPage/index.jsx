@@ -35,7 +35,9 @@ const ProdertyDetailsPage = () => {
           <Link to="/">
             <Menu.Item key="1">Home</Menu.Item>
           </Link>
-          <Menu.Item key="2">Add property</Menu.Item>
+          <Link to="/addForm">
+            <Menu.Item key="2">Add property</Menu.Item>
+          </Link>
         </Menu>
       </Header>
       <div className="app">

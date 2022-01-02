@@ -2,8 +2,9 @@ import { Menu, Layout, InputNumber } from "antd";
 import { Form, Input, Button, Upload } from "antd";
 import { Link } from "react-router-dom";
 import React, { useState, useEffect } from "react";
-import { UploadOutlined } from "@ant-design/icons";
+import { useNavigate } from "react-router";
 const AddPropertyForm = () => {
+  const history = useNavigate();
   const { Header } = Layout;
   const [form] = Form.useForm();
   const [fileList, setFileList] = useState([]);
@@ -37,19 +38,33 @@ const AddPropertyForm = () => {
     imgWindow.document.write(image.outerHTML);
   };
 
+  const addPropertyAsync = (value) => {
+    const requestOptions = {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(value),
+    };
+    fetch("http://localhost:8000/Properties", requestOptions)
+      .then((response) => response.json())
+      .then((data) => history(`/propertyDetail/${value?.id}`));
+  };
+
   const onFinish = (values) => {
     let val = {
       ...values,
-      images: values.images.fileList,
+      images: values.images.fileList.fill(
+        "https://www.onceuponapicture.co.uk/wp-content/uploads/2019/02/46456227_2504829799542273_7554593422053474304_o-700x525.jpg"
+      ),
       carpetArea: values.carpetArea + " sqmt",
       views: 0,
       favorite: "false",
       addedDate: "This week",
       id: uuidv4(),
     };
-
-    console.log("Finish:", val);
+    console.log("onfinish");
+    if (val.name) addPropertyAsync(val);
   };
+
   return (
     <>
       <Layout style={{ height: "150vh" }}>
