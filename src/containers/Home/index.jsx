@@ -3,6 +3,7 @@ import "./../../App.css";
 import SliderBody from "../../components/SliderBody";
 import MyCard from "../../components/MyCard";
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const { Header, Footer, Content, Sider } = Layout;
@@ -117,7 +118,9 @@ const Home = () => {
         <div className="logo" />
         <Menu theme="dark" mode="horizontal">
           <Menu.Item key="1">Home</Menu.Item>
-          <Menu.Item key="2">Add property</Menu.Item>
+          <Link to="/addForm">
+            <Menu.Item key="2">Add property</Menu.Item>
+          </Link>
         </Menu>
       </Header>
       <Layout className="site-layout" style={{ marginLeft: 200 }}>

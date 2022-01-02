@@ -29,6 +29,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 .card__body ul {
   display: flex;
